@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1297717480 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_war.cpp
+	"hlp_war.h"
+
+1243459536 c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_war.h
+	"../common.h"
+
+1326999970 c:\users\grkenn\desktop\stratlas-trunk\trunk\common.h
+	"wx/wxprec.h"
+	"wx/wx.h"
+	"wx/app.h"
+	"wx/frame.h"
+	"wx/dcclient.h"
+	"wx/button.h"
+	"wx/listbox.h"
+	"wx/statbox.h"
+	"wx/stattext.h"
+	"wx/textctrl.h"
+	"wx/sizer.h"
+	"wx/univ/theme.h"
+	<iostream>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<dirent.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<ctype.h>
+	<png.h>
+	<iostream>
+
+1290028332 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_cnctd.cpp
+	"in_cnctd.h"
+
+1297358418 c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_cnctd.h
+	"../common.h"
+	"../hlp/hlp_mix.h"
+
+1243459536 c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_mix.h
+	"../common.h"
+
+1297358418 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_warcraft.cpp
+	"in_warcraft.h"
+
+1243459536 c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_warcraft.h
+	"../common.h"
+	"../hlp/hlp_war.h"
+
+1326999972 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\main.cpp
+	"common.h"
+	"main.h"
+	"out/out_bmp.h"
+	"out/out_png.h"
+	"out/out_jpg.h"
+	"in/in_warcraft.h"
+	"in/in_war2.h"
+	"in/in_cnctd.h"
+	"in/in_totala.h"
+
+1298051600 c:\users\grkenn\desktop\stratlas-trunk\trunk\main.h
+	<wx/wx.h>
+	<wx/image.h>
+	<wx/cmdline.h>
+
+1298051600 c:\users\grkenn\desktop\stratlas-trunk\trunk\out\out_bmp.h
+	"../common.h"
+
+1297358418 c:\users\grkenn\desktop\stratlas-trunk\trunk\out\out_png.h
+	"../common.h"
+	<png.h>
+
+1327000216 c:\users\grkenn\desktop\stratlas-trunk\trunk\out\out_jpg.h
+	"../common.h"
+	<jpeglib.h>
+
+1244049584 c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_war2.h
+	"../common.h"
+	"../hlp/hlp_war.h"
+	"../hlp/hlp_mpq.h"
+
+1243517184 c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_mpq.h
+
+1244049584 c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_totala.h
+	"../common.h"
+
+1298051600 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\out\out_bmp.cpp
+	"out_bmp.h"
+
+1243459536 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\out\out_png.cpp
+	"out_png.h"
+
+1326999989 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_mix.cpp
+	"hlp_mix.h"
+
+1243517184 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\hlp\hlp_mpq.cpp
+
+1244049584 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_totala.cpp
+	"in_totala.h"
+
+1290023780 source:c:\users\grkenn\desktop\stratlas-trunk\trunk\in\in_war2.cpp
+	"in_war2.h"
+

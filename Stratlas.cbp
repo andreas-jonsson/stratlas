@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Stratlas" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Stratlas" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-D__WXMSW__ -DNO_GCC_PRAGMA -fno-rtti -fno-exceptions" />
+			<Add directory="C:\Dev-Cpp\wxWidgets-2.8.6-msw-static\include" />
+			<Add directory="C:\Dev-Cpp\wxWidgets-2.8.6-msw-static\lib\wx\include\msw-ansi-release-static-2.8" />
+		</Compiler>
+		<Linker>
+			<Add option="-s -mwindows -lwxmsw28 -loleaut32 -lole32 -luuid -lwinspool -lwinmm -lshell32 -lcomctl32 -lcomdlg32 -lctl3d32 -ladvapi32 -lwsock32 -lgdi32 -lpng -lzdll" />
+			<Add directory="C:\Dev-Cpp\wxWidgets-2.8.6-msw-static\lib" />
+		</Linker>
+		<Unit filename="common.h" />
+		<Unit filename="hlp\hlp_mix.cpp" />
+		<Unit filename="hlp\hlp_mix.h" />
+		<Unit filename="hlp\hlp_mpq.cpp" />
+		<Unit filename="hlp\hlp_mpq.h" />
+		<Unit filename="hlp\hlp_war.cpp" />
+		<Unit filename="hlp\hlp_war.h" />
+		<Unit filename="in\in_cnctd.cpp" />
+		<Unit filename="in\in_cnctd.h" />
+		<Unit filename="in\in_totala.cpp" />
+		<Unit filename="in\in_totala.h" />
+		<Unit filename="in\in_war2.cpp" />
+		<Unit filename="in\in_war2.h" />
+		<Unit filename="in\in_warcraft.cpp" />
+		<Unit filename="in\in_warcraft.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="out\out_bmp.cpp" />
+		<Unit filename="out\out_bmp.h" />
+		<Unit filename="out\out_png.cpp" />
+		<Unit filename="out\out_png.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
